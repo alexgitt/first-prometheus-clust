@@ -1,0 +1,7 @@
+global:
+  scrape_interval: 15s
+
+scrape_configs:
+  - job_name: 'calculator'
+    static_configs:
+      - targets: ['calculator:8000']  # Point to the calculator service on port 8000

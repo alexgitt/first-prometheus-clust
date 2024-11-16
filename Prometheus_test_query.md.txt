@@ -1,0 +1,5 @@
+calculation_count or pi_estimate
+pi_estimate
+avg_over_time(calculation_count_total[5m])
+avg_over_time(pi_estimate[5m])
+calculation_count_total
